@@ -1,0 +1,33 @@
+{
+    "name": "ncd-red-mcp23017",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ncd-io/ncd-red-mcp23017"
+    },
+    "keywords": [
+        "mcp23017",
+        "ncd",
+        "relay-control",
+        "i2c"
+    ],
+    "author": "Trey Felton",
+    "license": "MIT",
+    "node-red": {
+        "nodes": {
+            "ncd-mcp23017": "ncd-mcp23017.js"
+        }
+    },
+    "dependencies": {
+        "ncd-red-comm": "^1.4.0"
+    },
+    "bugs": {
+        "url": "https://github.com/ncd-io/ncd-red-mcp23017/issues"
+    },
+    "homepage": "https://github.com/ncd-io/ncd-red-mcp23017#readme"
+}
